@@ -1,0 +1,93 @@
+body {
+    font-size: 16rem;
+    font-family:  Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+}
+
+.menuside {
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tombol:hover {
+    transform: translateY(-2px);
+}
+
+.navbar {
+    border: 2px solid black;
+}
+.navbar img {
+    margin: 7px;
+}
+.navbar a:hover {
+    color: red;
+    transform: translateY(-2px);
+}
+
+.banner img {
+    height: 500px;
+    border: 1px solid black;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+}
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.sosmed {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.sosmed a {
+    margin: 10px;
+}
+.sosmed img:hover {
+    transform: translateY(-3px);
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.lokasi {
+    text-align: center;
+    padding: 10px;
+}
+.lokasi a:hover {
+    transform: translateY(-2px);
+}
+
+#testimoni {
+    text-align: cente;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-top: 10px;
+}
+
+.testii {
+    text-align: center;
+    color: rgb(243, 243, 243);
+    border-top: 1px solid black;
+}
+.testii img {
+    border-radius: 50%;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.testii span {
+    color: rgb(32, 238, 43);
+}
+.namanya {
+    color: rgb(32, 238, 43);
+    font-weight: bold;
+    padding-top: 7px;
+}
+.gelar {
+    color:rgb(255, 255, 255); 
+    font-weight: bold;
+    padding-bottom: 10px;
+} 

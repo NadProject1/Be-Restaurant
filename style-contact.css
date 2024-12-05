@@ -1,0 +1,35 @@
+body {
+    font-size: 16rem;
+    font-family:  Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+}
+
+.navbar {
+    border: 2px solid black;
+}
+.navbar img {
+    margin: 7px;
+}
+.navbar a:hover {
+    color: red;
+    transform: translateY(-2px);
+}
+
+.sosmed {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.sosmed a {
+    margin: 10px;
+}
+.sosmed img:hover {
+    transform: translateY(-3px);
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+#inipeta {
+    width: 100%;
+}

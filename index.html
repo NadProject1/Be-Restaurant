@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be'Restaurant | HOME</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/svg" href="behance.svg" />
+</head>
+
+
+<body style="background-color: #122d4f;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-info-subtle sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h2><img src="behance.svg" alt="logo">Restaurant</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto text-center" style="margin: 7px; padding-left:10px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img src="house.svg" alt="home">
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menuw"><img src="book.svg" alt="menu"> Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sosmeds"><img src="phone-flip.svg" alt="sosial"> Media Sosial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html"><img src="telephone-forward.svg" alt="contact">
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Corousel -->
+    <div class="banner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="slide1.png" class="d-block w-100" alt="promo1">
+                </div>
+                <div class="carousel-item">
+                    <img src="slide2.png" class="d-block w-100" alt="promo2">
+                </div>
+                <div class="carousel-item">
+                    <img src="slide3.png" class="d-block w-100" alt="promo3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Sidebar-->
+    <div class="menuside">
+
+
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="staticBackdropLabel">Promo Akhir Tahun!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="promo2024">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="card" style="width: 10rem;">
+                                <img src="pizza-promo.jpg" class="card-img-top" alt="pizza">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Queen</h5>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#orderminuman">18.000</button>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 10rem;">
+                                <img src="burger-promo.jpg" class="card-img-top" alt="burger">
+                                <div class="card-body">
+                                    <h5 class="card-title">Burger King</h5>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#orderminuman">18.000</button>
+                                </div>
+                            </div>
+                            <div class="medialagi">
+                                <div class="sosmed">
+                                    <a href="https://wa.me/" target="_blank"><img src="whatsapp.svg" alt="WhatsApp"></a>
+                                    <a href="https://www.instagram.com/" target="_blank"><img src="instagram.svg"
+                                            alt="Instagram"></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><img src="facebook.svg"
+                                            alt="Facebook"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main Menu-->
+
+    <h1 style="text-align: center; color: white;">Menu</h1>
+
+    <div class="menus" id="menuw">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="mainmenu">
+                        <div class="row" style="justify-content: center; padding: 20px;">
+                            <div class="card" style="width: 13rem;">
+                                <img src="menu-makanan.png" class="card-img-top" alt="makanan">
+                                <div class="card-body">
+                                    <a href="Menu-Makanan.html" class="btn btn-primary">Menu Makanan</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 13rem;">
+                                <img src="menu-minuman.jpg" class="card-img-top" alt="minuman">
+                                <div class="card-body">
+                                    <a href="Menu-Minuman.html" class="btn btn-primary">Menu Minuman</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 13rem;">
+                                <img src="pizza-promo.jpg" class="card-img-top" alt="katering">
+                                <div class="card-body">
+                                    <div class="tombol">
+                                        <button class="btn text-light bg-success" type="button"
+                                            data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                                            aria-controls="staticBackdrop">
+                                            Promo 2024 !
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimony -->
+    <div class="testii">
+        <div class="row mt-4">
+            <div class="col-md-12 d-flex justify-content-center flex-wrapid">
+                <div id="testimoni" class="col-md-12 carousel slide" data-bs-ride="carousel">
+                    <h1>Testimoni Pelanggan</h1>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="round">
+                                <img src="rahul.jpg" alt="rahul"/>
+                            </div>
+                            <div class="komentar">
+                                "Telur ceplok ini dimasak dengan sempurna! Kuning telurnya lembut dan putihnya matang
+                                pas.
+                                Sangat cocok untuk sarapan yang simpel dan bergizi!"
+                            </div>
+                            <div class="namanya">Mr. Rahul</div>
+                            <div class="gelar">Siswa</div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="round">
+                                <img src="madan.jpg" alt="madan"/>
+                            </div>
+                            <div class="komentar">
+                                "Bubur ayam ini adalah penyelamat pagi hari saya! Rasanya gurih dan hangat, dan
+                                toppingnya
+                                sangat lengkap. Bikin semangat langsung meledak!"
+                            </div>
+                            <div class="namanya">Mas Madan Enclok</div>
+                            <div class="gelar">Warga</div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="round">
+                                <img src="mael.jpg" alt="mael"/>
+                            </div>
+                            <div class="komentar">
+                                "Nasi goreng ini juara! Rasanya gurih dan pedas, dan porsinya pas banget untuk sarapan.
+                                Bikin hari saya semangat!"
+                            </div>
+                            <div class="namanya">Mr. Ismael Keram Dani</div>
+                            <div class="gelar">Mahasiswa</div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="round">
+                                <img src="usop.jpg" alt="usop" />
+                            </div>
+                            <div class="komentar">
+                                "Mie goreng ini juara! Rasanya gurih dan pedas, dan porsinya pas banget untuk sarapan.
+                                Bikin hari saya semangat!"
+                            </div>
+                            <div class="namanya">Mr. Usop</div>
+                            <div class="gelar">Driver</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer bg-info-subtle" style="border: 1px solid black;">
+        <div class="container">
+            <div class="row" id="sosmeds">
+                <div class="col">
+                    <h2 style="color: black; text-align: center; margin-top: 30px; padding: 20px;">Media Social</h2>
+                    <div class="sosmed" id="medsos">
+                        <a href="https://wa.me/" target="_blank"><img src="whatsapp.svg" alt="WhatsApp"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="instagram.svg"
+                                alt="Instagram"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="facebook.svg" alt="Facebook"></a>
+                    </div>
+                </div>
+                <div class="lokasi">
+                    <a class="btn btn-primary" href="Contact.html" role="button"><img src="geo.svg" alt="geo"> Kontak
+                        Lengkap</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="text-align: center;">&copy; Be'Restaurant. All rights reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- ORDER MODAL -->
+    <div class="modal fade" id="orderminuman" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pesan Minuman</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="orderForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Alamat Lengkap" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Pilih Menu</option>
+                                <option value="teler">Es Teler - Rp. 25.000</option>
+                                <option value="cendol">Cendol Dawet - Rp. 15.000</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Jumlah Pesanan" min="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Metode Pembayaran</option>
+                                <option value="cod">Cash on Delivery (COD)</option>
+                                <option value="transfer">Transfer Bank</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Pesan Sekarang</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

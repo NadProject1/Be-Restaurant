@@ -1,0 +1,67 @@
+body {
+    font-size: 16rem;
+    font-family:  Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+}
+
+.navbar {
+    border: 2px solid black;
+}
+.navbar img {
+    margin: 7px;
+}
+.navbar a:hover {
+    color: red;
+    transform: translateY(-2px);
+}
+
+.best .card {
+    margin: 20px;
+    border: 2px solid aquamarine;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.menuu .card {
+    margin: 10px;
+    border: 2px solid aquamarine;
+}
+.card {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.menuside {
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tombol:hover {
+    transform: translateY(-2px);
+}
+
+.sosmed {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.sosmed a {
+    margin: 10px;
+}
+.sosmed img:hover {
+    transform: translateY(-3px);
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.lokasi {
+    text-align: center;
+    padding: 10px;
+}
+.lokasi a:hover {
+    transform: translateY(-2px);
+}
